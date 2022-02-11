@@ -1,0 +1,9 @@
+.login-form{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-regular{
+    color: rgb(255, 0, 0);
+    background-color: yellow;
+}

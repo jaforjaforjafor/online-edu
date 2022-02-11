@@ -1,0 +1,12 @@
+.cnt-color{
+    color: crimson;
+}
+.email{
+    text-decoration: none;
+}
+.phone{
+    display: inline;
+    background-color: aqua;
+    color: darkmagenta;
+    
+}

@@ -1,0 +1,9 @@
+.welcome{
+    color: cornflowerblue;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.we{
+    color: rgb(26, 1, 22);
+}
