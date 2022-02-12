@@ -23,7 +23,7 @@ const Contact = () => {
 <h4>Sun closed</h4><br />
 <h6>Calling about a claim? We're here 24/7, all year round on: 000022222000 Social: You can catch us on Twitter or Facebook, or find your favourite platform on our social homepage.</h6>
 <a>www.facebook.com/jaforiqbal</a>
-<h4>Email us: <a className="email" href="">jafor365iqbal@gmail.com</a> OR <a className="email" href="">sharmimondal@gmail.com</a></h4>
+<h4>Email us: <a className="email" href="">jafor365iqbal@gmail.com</a> OR <a className="email" href="">lionelsharmi10@gmail.com</a></h4>
  
 
 
