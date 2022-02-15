@@ -7,3 +7,12 @@ align-items: center;
 .we{
     color: rgb(26, 1, 22);
 }
+.home-page{
+    display:flex;
+    color:black;
+}
+.join-now{
+    margin-left: 950px;
+    color: coral;
+
+}

@@ -8,7 +8,7 @@ const Header = () => {
     const{user,logOut}=useAuth()
     return (
         <div className='header'>
-             <img src={logo} alt=""width="1050px" height="100px" />
+             <img src={logo} alt=""width="750px" height="150px" />
              
              <nav className="navtool">
              <h2 className='welcome-header'>Welcome To Online Education</h2>
