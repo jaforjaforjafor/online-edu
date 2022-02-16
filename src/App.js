@@ -1,11 +1,13 @@
 import { Route,  Switch } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+import Admin from "./components/Admin/Admin";
 import Contact from "./components/Contact/Contact";
 import Feedback from "./components/Feedback/Feedback";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
+import Courses from "./components/OurCourses/Courses";
 import Payment from "./components/Payment/Payment";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Register from "./components/Register/Register";
@@ -43,6 +45,12 @@ function App() {
           </PrivateRoute>
           <Route path="/feedback">
             <Feedback></Feedback>
+          </Route>
+          <Route path="/ourcourses">
+            <Courses></Courses>
+          </Route>
+          <Route path="/admin">
+            <Admin></Admin>
           </Route>
         </Switch>
         <Footer></Footer>

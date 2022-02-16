@@ -3,12 +3,13 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='text-center my-5'>
             
-            <p className='copy'>© Copyright 2022 Online-Education. All Rights Reserved. Simply care about your Education .</p>
-            <h4>It is a limited company</h4> 
+           
+            <h4 className='limited'>Limited company</h4> 
             
-            <h3>Adress: siddieshwari ,malibaagh dhaka. Dhaka Gpo-1212</h3>
+            <h3 className='address'>Adress: siddieshwari ,malibaagh dhaka. Dhaka Gpo-1212</h3>
+            <p className='  copy '>© Copyright 2022 Online-Education. All Rights Reserved. Simply care about your Education .</p>
         
         </div>
     );
