@@ -6,6 +6,7 @@ import  aogo from '../Images/course-3.webp';
 import  bogo from '../Images/course-4.jpg';
 import  logo from '../Images/course-5.png';
 import  go from '../Images/course-6.jpg';
+import { Link } from 'react-router-dom';
 
 const Courses = () => {
     return (
@@ -22,7 +23,7 @@ const Courses = () => {
   <div className="card-body">
     <h5 className="card-title">IELTS Course</h5>
     <p className="card-text">New level of IELTS,high experince Teachers are here</p>
-    <a hRef="" className="btn btn-primary">see update</a>
+    <a href="/" className="btn btn-primary">see update</a>
     
   </div>
 </div> </div>
@@ -31,7 +32,7 @@ const Courses = () => {
   <div className="card-body">
     <h5 className="card-title">Mathmatics Course</h5>
     <p className="card-text">Vector,geometry,matrics claases.</p>
-    <a hRef="" className="btn btn-primary">see update</a>
+    <a href="/" className="btn btn-primary">see update</a>
   </div>
 </div> </div>
     <div className="col-sm"> <div className="card">
@@ -39,7 +40,7 @@ const Courses = () => {
   <div className="card-body">
     <h5 className="card-title">Digital Marketing Course</h5>
     <p className="card-text"> our members also gain the knowledge of digital marketing.</p>
-    <a hRef="" className="btn btn-primary">see update</a>
+    <a href="/" className="btn btn-primary">see update</a>
   </div>
 </div></div>
   </div>
@@ -49,7 +50,7 @@ const Courses = () => {
   <div className="card-body">
     <h5 className="card-title">Art Course</h5>
     <p className="card-text">Art classes are one of the best courses in our education</p>
-    <a hRef="" className="btn btn-primary">see update</a>
+    <Link to ="/"></Link>
     
   </div>
 </div> </div>

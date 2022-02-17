@@ -10,7 +10,7 @@ const Header = () => {
              
              
              <nav className="navtool">
-             <h2 className='welcome-header'>Welcome To Online Education</h2>
+             
             <NavLink to ="/home">Home</NavLink>
             <NavLink to ="/teacher's Profile">Teacher's Profile</NavLink>
             <NavLink to ="/payment">Payment</NavLink>
@@ -26,6 +26,7 @@ const Header = () => {
             <NavLink to ="/login">Login</NavLink>
            }
            <NavLink to ="/admin">Admin</NavLink>
+           <h2 className='welcome-header'>Welcome To Online Education</h2>
             
             </nav>
         </div>
