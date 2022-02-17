@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-
 import Banner from '../Banner/Banner';
 import Medium from '../Medium/Medium';
 import Teachers from '../Teacher-Profile/Teachers';
@@ -18,13 +17,6 @@ const Home = () => {
           <Teachers></Teachers>
           <Courses></Courses>
           <Contact></Contact>
-         
-       
-  
- 
-
-
-        
     </div>
    
 

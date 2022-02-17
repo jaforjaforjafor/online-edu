@@ -1,0 +1,64 @@
+[ 
+    {
+        "_id":1,
+   "name":"shafi sir",
+   "email":"raselit@gmail.com",
+   "designation":"senior lecturer",
+   "expert": "html,css,php,"
+
+},
+    {
+        "_id":2,
+   "name":"Shahed Sir",
+   "email":"Shahedsir@gmail.com",
+   "designation":"senior lecturer",
+   "expert": "programming, c++"
+
+},
+    {
+        "_id":3,
+   "name":"Nipa Mam",
+   "email":"NipaMam@gmail.com",
+   "designation":"senior lecturer",
+   "expert": "html,css,php,"
+
+},
+    {
+        "_id":4,
+   "name":"mehedi sir",
+   "email":"mehedisir@gmail.com",
+   "designation":"senior lecturer",
+   "expert": "compiler,"
+
+},
+    {
+        "_id":5,
+   "name":"shafin sir",
+   "email":"shafinsir@gmail.com",
+   "designation":"senior lecturer",
+   "expert": "html,css,php,"
+
+},
+    {
+        "_id":6,
+   "name":"shafi sir",
+   "email":"raselit@gmail.com",
+   "designation":"senior lecturer"
+
+},
+    {
+        "_id":7,
+   "name":"shafi sir",
+   "email":"raselit@gmail.com",
+   "designation":"senior lecturer"
+
+},
+    {
+        "_id":8,
+   "name":"shafi sir",
+   "email":"raselit@gmail.com",
+   "designation":"senior lecturer"
+
+}
+
+]

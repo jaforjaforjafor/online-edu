@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Courses.css';
 import  cgo from '../Images/course-2.png';
 import  cogo from '../Images/course-7.jpg';
@@ -7,10 +7,33 @@ import  bogo from '../Images/course-4.jpg';
 import  logo from '../Images/course-5.png';
 import  go from '../Images/course-6.jpg';
 import { Link } from 'react-router-dom';
+import Course from '../Course/Course';
 
 const Courses = () => {
+  const [courses,setCourses]=useState([]);
+  useEffect( ()=>{
+    fetch('./coursedata.json')
+    .then(res=>res.json())
+    .then(data=> setCourses(data))
+
+  },[])
+
     return (
 
+     <div >
+       <div className='row row-cols-1 row-cols-3 g-4'>
+
+         { 
+         courses.map(course=><Course
+         key={course._id}
+           course={course}></Course> )
+         
+         }
+
+       </div>
+       
+       
+     {/* 
          
         <div className="container">
             <h1 className='text-center my-5'> <span className=' course-color'> Our  Courses
@@ -71,6 +94,7 @@ const Courses = () => {
   </div>
 </div></div>
   </div><br /><br />
+</div> */}
 </div>
        
     );
