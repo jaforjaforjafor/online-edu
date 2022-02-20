@@ -1,12 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Courses.css';
-import  cgo from '../Images/course-2.png';
-import  cogo from '../Images/course-7.jpg';
-import  aogo from '../Images/course-3.webp';
-import  bogo from '../Images/course-4.jpg';
-import  logo from '../Images/course-5.png';
-import  go from '../Images/course-6.jpg';
-import { Link } from 'react-router-dom';
 import Course from '../Course/Course';
 
 const Courses = () => {
@@ -20,7 +13,7 @@ const Courses = () => {
 
     return (
 
-     <div >
+     <div>
        <div className='row row-cols-1 row-cols-3 g-4'>
 
          { 

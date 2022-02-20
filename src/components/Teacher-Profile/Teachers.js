@@ -8,6 +8,9 @@ import cogo from './pic4.png'
 import bogo from './pic4.png' 
 
 const Teachers = () => {
+  const submitButton=()=>{
+
+  }
     return (
         
         <div className="container">
@@ -45,7 +48,7 @@ const Teachers = () => {
   <div className="card-body">
     <h5 className="card-title">patient dependencies</h5>
     <p className="card-text">Advice patient how to protect your teeth.life is happy if your health is well</p>
-    <a hRef="" className="btn btn-primary">see update</a>
+    <a href="/" className="btn btn-primary">see update</a>
     
   </div>
 </div> </div>
@@ -54,7 +57,7 @@ const Teachers = () => {
   <div className="card-body">
     <h5 className="card-title">operation time</h5>
     <p className="card-text">Patients think about teeth ,we think about patient.</p>
-    <a hRef="" className="btn btn-primary">see update</a>
+    <a href="/" className="btn btn-primary">see update</a>
   </div>
 </div> </div>
     <div className="col-sm"> <div className="card">
@@ -62,7 +65,7 @@ const Teachers = () => {
   <div className="card-body">
     <h5 className="card-title">Succesful operation</h5>
     <p className="card-text"> after Succesful dentist activity the child smile like he is true happiest person.</p>
-    <a hRef="" className="btn btn-primary">see update</a>
+    <a href="/" className="btn btn-primary">see update</a>
   </div>
 </div></div>
   </div><br /><br />

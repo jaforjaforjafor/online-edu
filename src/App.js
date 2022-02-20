@@ -7,9 +7,11 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
+import NotFound from "./components/NotFound/NotFound";
 import Courses from "./components/OurCourses/Courses";
 import Payment from "./components/Payment/Payment";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import Purchase from "./components/Purchase/Purchase/Purchase";
 import Register from "./components/Register/Register";
 import Teachers from "./components/Teacher-Profile/Teachers";
 import AuthProvider from './context/AuthProvider';
@@ -40,9 +42,9 @@ function App() {
           <Route path="/register">
             <Register></Register>
           </Route>
-          <PrivateRoute path="/contact">
+          <Route path="/contact">
             <Contact></Contact>
-          </PrivateRoute>
+          </Route>
           <Route path="/feedback">
             <Feedback></Feedback>
           </Route>
@@ -52,6 +54,14 @@ function App() {
           <Route path="/admin">
             <Admin></Admin>
           </Route>
+          <PrivateRoute path="/purchase/:id">
+            <Purchase></Purchase>
+          </PrivateRoute>
+
+          <Route path="/*">
+            <NotFound></NotFound>
+          </Route>
+
         </Switch>
         <Footer></Footer>
         </BrowserRouter>

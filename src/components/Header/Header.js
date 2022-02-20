@@ -9,12 +9,11 @@ const Header = () => {
         <div className='header'>
              
              
-             <nav className="navtool">
+             <nav className="navtool" >
              
             <NavLink to ="/home">Home</NavLink>
             <NavLink to ="/teacher's Profile">Teacher's Profile</NavLink>
             <NavLink to ="/payment">Payment</NavLink>
-            <NavLink to ="/register">Register</NavLink>
             <NavLink to ="/contact">Contact</NavLink>
             {/* <NavLink to ="/feedback">Feedback</NavLink> */}
             <NavLink to ="/ourcourses">Our Courses</NavLink>

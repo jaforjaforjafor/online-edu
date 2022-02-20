@@ -20,11 +20,11 @@ const Login = () => {
         <div className='login-form'>
             <div >
             <h2 className='login-please'>Please Login</h2>
-            <form onSubmit="">
+            <form onSubmit={handleGoogleLogin}>
                 <input type="email" name="" id="" placeholder='Enter Your Email ' /><br /><br />
                 <input type="password" name="" id="" placeholder='Enter Your password ' />
                 <br /><br />
-                <input className='submit-login' type="submit" value="submit" />
+                <input className="submit-login" type="submit" value="submit" />
             </form>
             <p>New user ? <Link to="/register">create account</Link></p>
             <div>----------Or---------</div>
