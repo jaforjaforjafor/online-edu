@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-const Purchase = () => {
+const ServiceDetails = () => {
     const {id}=useParams();
-    const[purchase,setPurchase]=useState([]);
-    
+    const[serviceDetails,setServiceDetails]=useState([]);
     useEffect(() => {
-        fetch("/coursedata.json")
+        fetch("/teacherdata.json")
             .then(res => res.json())
             .then((data) => {
-                const foundPurchase= data.filter(detail => detail._id == id)
-                setPurchase(foundPurchase);
+                const foundService= data.filter(detail => detail._id == id)
+                setServiceDetails(foundService);
             })
     }, [])
-    const { name, description, image, price } = purchase[0] || {}
+    const { name, designation, image, email,expert } = serviceDetails[0] || {}
+
     return (
         <div>
             <div className="container mt-4  ">
@@ -23,10 +23,11 @@ const Purchase = () => {
                         <img src={image} className="card-img-top " alt="..." />
                         <div className="card-body">
 
-                            <p className="text-nowrap"><strong >Service:{name}</strong></p>
-                            <p className="card-text"> <strong>Description:</strong> {description}</p>
+                            <p className="text-nowrap"><strong >Name:{name}</strong></p>
+                            <p className="card-text"> <strong>Designation:{designation}</strong> </p>
 
-                            <p className="text-nowrap"><strong >Price:</strong> $ {price}</p>
+                            <p className="text-nowrap"><strong >email:{email}</strong>  </p>
+                            <p className="text-nowrap"><strong >expert:{expert}</strong>  </p>
                         </div>
 
                     </div>
@@ -34,9 +35,9 @@ const Purchase = () => {
             </div>
 
         </div>
-            
+
         </div>
     );
 };
 
-export default Purchase;
+export default ServiceDetails;

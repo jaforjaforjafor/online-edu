@@ -13,6 +13,7 @@ import Payment from "./components/Payment/Payment";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Purchase from "./components/Purchase/Purchase/Purchase";
 import Register from "./components/Register/Register";
+import ServiceDetails from "./components/Service/Service/ServiceDetails";
 import Teachers from "./components/Teacher-Profile/Teachers";
 import AuthProvider from './context/AuthProvider';
 
@@ -56,6 +57,9 @@ function App() {
           </Route>
           <PrivateRoute path="/purchase/:id">
             <Purchase></Purchase>
+          </PrivateRoute>
+          <PrivateRoute path="/service/:id">
+            <ServiceDetails></ServiceDetails>
           </PrivateRoute>
 
           <Route path="/*">
